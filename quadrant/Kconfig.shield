@@ -1,0 +1,14 @@
+# Copyright (c) 2020 The ZMK Contributors
+# SPDX-License-Identifier: MIT
+
+config SHIELD_QUADRANT_DONGLE
+    def_bool $(shields_list_contains,quadrant_dongle)
+
+config SHIELD_QUADRANT_LEFT
+    def_bool $(shields_list_contains,quadrant_left)
+
+config SHIELD_QUADRANT_RIGHT
+    def_bool $(shields_list_contains,quadrant_right)
+
+config SHIELD_QUADRANT_NUMPAD
+    def_bool $(shields_list_contains,quadrant_numpad)
